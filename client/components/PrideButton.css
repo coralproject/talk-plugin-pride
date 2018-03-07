@@ -1,0 +1,13 @@
+.container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.button {
+  transform: scale(1.2);
+  display: inline-block;
+}
+
+.button:hover {
+  cursor: pointer;
+}

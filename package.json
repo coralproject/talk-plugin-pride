@@ -1,0 +1,9 @@
+{
+  "name": "@coralproject/talk-plugin-pride",
+  "pluginName": "talk-plugin-pride",
+  "version": "0.0.1",
+  "description": "Pride Reaction for Comments",
+  "main": "index.js",
+  "author": "The Coral Project Team <coral@mozillafoundation.org>",
+  "license": "Apache-2.0"
+}
