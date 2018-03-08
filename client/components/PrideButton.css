@@ -1,13 +1,46 @@
 .container {
   display: inline-block;
-  margin-right: 10px;
 }
 
 .button {
+  color: #2a2a2a;
+  margin: 5px 10px 5px 0px;
+  background: none;
+  padding: 0px;
+  border: none;
+  font-size: inherit;
+  vertical-align: middle;
+
+  &:hover {
+    color: #767676;
+    cursor: pointer;
+  }
+}
+
+.icon {
   transform: scale(1.2);
-  display: inline-block;
+  padding: 0 3px;
+  padding: 0 5px 1px;
 }
 
 .button:hover {
   cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .label {
+    display: none;
+  }
+}
+
+.reacted {
+  animation: rainbow 1s 1; 
+}
+
+@keyframes rainbow{
+	20%{color: #EB5242;}
+	40%{color: #F5C15F;}
+	60%{color: #61C482;}
+	80%{color: #49B1DE;}
+	100%{color: #EB7835;}	
 }
