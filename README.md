@@ -1,4 +1,4 @@
-# Talk Plugin Pride
+# talk-plugin-pride
 Pride Reaction for Comments
 
 ## Installation
@@ -12,3 +12,6 @@ This reaction uses Talk friendly API to add a new reaction for the comments. Sim
 
 Enjoy! 🌈
 
+## License
+
+talk-plugin-pride is released under the [Apache License, v2.0](/LICENSE).
